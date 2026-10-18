@@ -16,7 +16,7 @@ const articles = [
     description:
       "Understand the tools, trends, and opportunities shaping the future of work.",
     readTime: "6 min read",
-    number: "01",
+    number: "02",
   },
   { 
     slug: "digital-skills-for-beginners",
