@@ -25,7 +25,7 @@ const articles = [
     description:
       "Explore practical technology skills to help you build your future.",
     readTime: "5 min read",
-    number: "02",
+    number: "03",
   },
   { 
     slug: "how-to-build-your-first-website",
@@ -34,7 +34,7 @@ const articles = [
     description:
       "Discover the essential steps to turn a simple idea into a digital product.",
     readTime: "8 min read",
-    number: "03",
+    number: "04",
   },
 ];
 
