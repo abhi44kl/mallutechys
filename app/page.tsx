@@ -1,5 +1,14 @@
 
 const articles = [
+    {
+    slug: "what-is-technology",
+    category: "TECHNOLOGY FUNDAMENTALS",
+    title: "What Is Technology? A Simple Guide",
+    description:
+      "Discover what technology means, how it works, and why it matters for students and entrepreneurs.",
+    readTime: "8 min read",
+    number: "01",
+  },
   { 
     slug: "what-is-artificial-intelligence",
     category: "ARTIFICIAL INTELLIGENCE",

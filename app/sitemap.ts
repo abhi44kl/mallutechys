@@ -12,6 +12,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${baseUrl}/articles/what-is-technology`,
+      lastModified: new Date("2026-10-18"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/articles/what-is-artificial-intelligence`,
       lastModified: new Date("2026-10-18"),
       changeFrequency: "monthly",
