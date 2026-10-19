@@ -236,6 +236,7 @@ export function generateStaticParams() {
   return Object.keys(articles).map((slug) => ({ slug }));
 }
 
+
 export async function generateMetadata({
   params,
 }: {
@@ -244,16 +245,27 @@ export async function generateMetadata({
   const { slug } = await params;
 
   if (!Object.prototype.hasOwnProperty.call(articles, slug)) {
-    return { title: "Article not found | MalluTechys" };
+    return { title: "Article not found" };
   }
 
   const article = articles[slug as ArticleSlug];
 
   return {
-    title: `${article.title} | MalluTechys`,
+    title: article.title,
     description: article.description,
+    alternates: {
+      canonical: `/articles/${slug}`,
+    },
+    openGraph: {
+      type: "article",
+      title: article.title,
+      description: article.description,
+      url: `/articles/${slug}`,
+      siteName: "MalluTechys",
+    },
   };
 }
+
 
 export default async function ArticlePage({
   params,
