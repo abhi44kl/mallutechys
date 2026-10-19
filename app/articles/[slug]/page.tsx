@@ -343,18 +343,70 @@ export default async function ArticlePage({
           ))}
         </div>
 
-        <div className="mt-14 rounded-2xl bg-[#14233b] p-7 text-white">
-          <h2 className="text-xl font-bold">Keep exploring technology.</h2>
-          <p className="mt-3 leading-7 text-slate-300">
-            Discover more practical guides and ideas on MalluTechys.
+
+        <div className="mt-14 rounded-2xl border border-slate-200 bg-white p-7">
+          <h2 className="text-xl font-bold">
+            Explore Related Articles
+          </h2>
+          <p className="mt-3 leading-7 text-slate-600">
+            Continue learning with these practical guides from MalluTechys.
           </p>
+
+          <ul className="mt-5 space-y-4">
+            <li>
+              <Link
+                href="/articles/what-is-technology"
+                className="font-semibold text-blue-600 hover:underline"
+              >
+                What Is Technology?
+              </Link>
+              <p className="mt-1 text-sm text-slate-600">
+                Understand technology and how it solves everyday problems.
+              </p>
+            </li>
+            <li>
+              <Link
+                href="/articles/what-is-artificial-intelligence"
+                className="font-semibold text-blue-600 hover:underline"
+              >
+                What Is Artificial Intelligence?
+              </Link>
+              <p className="mt-1 text-sm text-slate-600">
+                Learn the fundamentals of AI and how it works.
+              </p>
+            </li>
+            <li>
+              <Link
+                href="/articles/digital-skills-for-beginners"
+                className="font-semibold text-blue-600 hover:underline"
+              >
+                Digital Skills Beginners Can Learn Today
+              </Link>
+              <p className="mt-1 text-sm text-slate-600">
+                Discover useful digital skills to practise.
+              </p>
+            </li>
+            <li>
+              <Link
+                href="/articles/how-to-build-your-first-website"
+                className="font-semibold text-blue-600 hover:underline"
+              >
+                How to Build Your First Website
+              </Link>
+              <p className="mt-1 text-sm text-slate-600">
+                Start creating your own website.
+              </p>
+            </li>
+          </ul>
+
           <Link
             href="/"
-            className="mt-5 inline-block rounded-full bg-blue-600 px-5 py-3 font-semibold hover:bg-blue-700"
+            className="mt-6 inline-block rounded-full bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-700"
           >
             Visit homepage →
           </Link>
         </div>
+
       </article>
 
       <footer className="border-t border-slate-200 bg-white px-6 py-7 text-center text-sm text-slate-500">
