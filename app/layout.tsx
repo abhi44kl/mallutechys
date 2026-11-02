@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mallutechys.com"),
+  metadataBase: new URL("https://www.mallutechys.com"),
   title: {
     default: "MalluTechys | Technology, Innovation & Opportunity",
     template: "%s | MalluTechys",
