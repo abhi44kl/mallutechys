@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://mallutechys.com/sitemap.xml",
+    sitemap: "https://www.mallutechys.com/sitemap.xml",
   };
 }
